@@ -1,0 +1,82 @@
+,Name,NetWorth,Country,Source,Rank,Age,Residence,Citizenship,Status,Children,Education,Self_made
+0,Jeff Bezos,177.0,United States,Amazon,1,57.0,"Seattle, Washington",United States,In Relationship,4.0,"Bachelor of Arts/Science, Princeton University",True
+1,Elon Musk,151.0,United States,"Tesla, SpaceX",2,49.0,"Austin, Texas",United States,In Relationship,7.0,"Bachelor of Arts/Science, University of Pennsylvania",True
+2,Bernard Arnault & family,150.0,France,LVMH,3,72.0,"Paris, France",France,Married,5.0,"Bachelor of Arts/Science, Ecole Polytechnique de Paris",False
+3,Bill Gates,124.0,United States,Microsoft,4,65.0,"Medina, Washington",United States,Divorced,3.0,"Drop Out, Harvard University",True
+4,Mark Zuckerberg,97.0,United States,Facebook,5,36.0,"Palo Alto, California",United States,Married,2.0,"Drop Out, Harvard University",True
+5,Warren Buffett,96.0,United States,Berkshire Hathaway,6,90.0,"Omaha, Nebraska",United States,"Widowed, Remarried",3.0,"Master of Science, Columbia University; Bachelor of Arts/Science, University of Nebraska Lincoln",True
+6,Larry Ellison,93.0,United States,software,7,76.0,"Lanai, Hawaii",United States,In Relationship,4.0,"Drop Out, University of Chicago; Drop Out, University of Illinois, Urbana-Champaign",True
+7,Larry Page,91.5,United States,Google,8,48.0,"Palo Alto, California",United States,Married,1.0,"Master of Science, Stanford University; Bachelor of Arts/Science, University of Michigan",True
+8,Sergey Brin,89.0,United States,Google,9,47.0,"Los Altos, California",United States,Married,3.0,"Master of Science, Stanford University; Bachelor of Arts/Science, University of Maryland, College Park",True
+9,Mukesh Ambani,84.5,India,diversified,10,64.0,"Mumbai, India",India,Married,3.0,"Drop Out, Stanford University; Bachelor of Science in Engineering, University of Mumbai",False
+13,Steve Ballmer,68.7,United States,Microsoft,14,65.0,"Hunts Point, Washington",United States,Married,3.0,"Bachelor of Arts/Science, Harvard University; Drop Out, Stanford University",True
+15,Carlos Slim Helu & family,62.8,Mexico,telecom,16,81.0,"Mexico City, Mexico",Mexico,Widowed,6.0,"Bachelor of Arts/Science, Universidad Nacional Autonoma de Mexico",True
+17,Jim Walton,60.2,United States,Walmart,18,72.0,"Bentonville, Arkansas",United States,Married,4.0,"Bachelor of Arts/Science, University of Arkansas",False
+18,Rob Walton,59.5,United States,Walmart,19,76.0,"Bentonville, Arkansas",United States,Married,3.0,"Doctor of Jurisprudence, Columbia University; Bachelor of Arts/Science, University of Arkansas",False
+19,Michael Bloomberg,59.0,United States,Bloomberg LP,20,79.0,"New York, New York",United States,In Relationship,2.0,"Master of Business Administration, Harvard Business School; Bachelor of Arts/Science, Johns Hopkins University",True
+21,MacKenzie Scott,53.0,United States,Amazon,22,51.0,"Seattle, Washington",United States,Married,4.0,"Bachelor of Arts/Science, Princeton University",False
+22,Daniel Gilbert,51.9,United States,Quicken Loans,23,59.0,"Franklin, Michigan",United States,Married,5.0,"Bachelor of Arts/Science, Michigan State University; LLB, Wayne State University",True
+24,Phil Knight & family,49.9,united States,Nike,25,83.0,"Hillsboro, Oregon",United States,Married,3.0,"Master of Business Administration, Stanford Graduate School of Business; Bachelor of Arts/Science, University of Oregon",True
+26,Charles Koch,46.4,United States,Koch Industries,27,85.0,"Wichita, Kansas",United States,Married,2.0,"Bachelor of Arts/Science, Massachusetts Institute of Technology; Master of Science, Massachusetts Institute of Technology",False
+28,Masayoshi Son,45.4,Japan,"internet, telecom",29,63.0,"Tokyo, Japan",Japan,Married,2.0,"Bachelor of Arts/Science, University of California, Berkeley",True
+29,Michael Dell,45.1,United States,Dell computers,30,56.0,"Austin, Texas",United States,Married,4.0,"Drop Out, The University of Texas at Austin",True
+30,Tadashi Yanai & family,44.1,Japan,fashion retail,31,72.0,"Tokyo, Japan",Japan,Married,2.0,"Bachelor of Arts/Science, Waseda University",True
+31,FranÃ§ois Pinault & family,42.3,France,luxury goods,32,84.0,"Paris, France",France,Married,3.0,"Drop Out, High School",True
+32,David Thomson & family,41.8,canada,media,33,63.0,"Toronto, Canada",Canada,Divorced,4.0,"Master of Arts, University of Cambridge",False
+35,Miriam Adelson,38.2,United States,casinos,36,75.0,"Las Vegas, Nevada",United States,Widowed,5.0,"Bachelor of Science, Hebrew University Jerusalem",False
+42,Li Ka-shing,33.7,Hong Kong,diversified,43,92.0,Hong Kong,Hong Kong,Widowed,2.0,"Drop Out, High School",True
+47,Jacqueline Mars,31.3,United States,"candy, pet food",48,81.0,"The Plains, Virginia",United States,Divorced,3.0,"Bachelor of Arts/Science, Bryn Mawr College",False
+48,John Mars,31.3,United States,"candy, pet food",48,85.0,"Jackson, Wyoming",United States,Married,3.0,"Diploma, The Hotchkiss School; Bachelor of Arts/Science, Yale University",False
+50,Alexey Mordashov & family,29.1,Russia,"steel, investments",51,55.0,"Moscow, Russia",Russia,Married,7.0,"Bachelor of Arts/Science, Leningrad Institute of Economics; Master of Business Administration, University of Northumbria",True
+52,Hui Ka Yan,27.7,China,real estate,53,62.0,"Shenzhen, China",China,Married,2.0,"Bachelor of Arts/Science, Wuhan U of  Science & Tec",True
+53,Susanne Klatten,27.7,Germany,"BMW, pharmaceuticals",53,59.0,"Bad Homburg, Germany",Germany,Married,3.0,"Master of Business Administration, International Institute for Management and Development",False
+54,Vladimir Potanin,27.0,Russia,metals,55,60.0,"Moscow, Russia",Russia,Married,7.0,"Bachelor of Arts/Science, Moscow Institute of International Relations",True
+55,Dietrich Mateschitz,26.9,Austria,Red Bull,56,76.0,"Fuschl am See, Austria",Austria,Single,1.0,"Master of Business Administration, University of Vienna",True
+58,Vladimir Lisin,26.2,Russia,"steel, transport",59,65.0,"Moscow, Russia",Russia,Married,3.0,"Doctorate, Russian Academy of Economics; Bachelor of Arts/Science, Siberian Metallurgical Institute",True
+63,Leonard Lauder,25.5,United States,Estee Lauder,64,88.0,"New York, New York",United States,"Widowed, Remarried",2.0,"Bachelor of Arts/Science, University of Pennsylvania",False
+64,Thomas Peterffy,25.0,united States,discount brokerage,65,76.0,"Palm Beach, Florida",United States,Divorced,3.0,"Drop Out, New York University",True
+65,Vagit Alekperov,24.9,Russia,oil,66,70.0,"Moscow, Russia",Russia,Married,1.0,"Bachelor of Science in Engineering, Azerbaijan Institute of Oil and Chemistry",True
+66,Leonid Mikhelson,24.9,russia,"gas, chemicals",66,65.0,"Moscow, Russia",Russia,Married,2.0,"Bachelor of Arts/Science, Kuybyshev Engineering and Construction Institute",True
+67,Jim Simons,24.6,United States,hedge funds,68,83.0,"East Setauket, New York",United States,Married,3.0,"Bachelor of Arts/Science, Massachusetts Institute of Technology; Doctorate, University of California, Berkeley",True
+68,Jiang Rensheng & family,24.4,China,vaccines,69,67.0,"Chongqing, China",China,Married,1.0,"Associate in Arts/Science, Guilin Medical University",True
+70,Rupert Murdoch & family,23.5,United States,"newspapers, TV network",71,90.0,"New York, New York",United States,Married,6.0,"Bachelor of Arts/Science, Oxford University; Master of Arts, Oxford University",False
+71,Shiv Nadar,23.5,India,software services,71,75.0,"Delhi, India",India,Married,1.0,"Bachelor of Arts/Science, PSG College of Technology",True
+74,Lei Jun,23.0,China,smartphones,75,51.0,"Beijing, China",China,Married,2.0,"Bachelor of Science in Engineering, Wuhan University",True
+77,Gennady Timchenko,22.0,Russia,"oil, gas",78,68.0,"Moscow, Russia",Russia,Married,3.0,"Bachelor of Arts/Science, Leningrad Mechanical Institute",True
+78,Stephen Schwarzman,21.9,United States,investments,79,74.0,"New York, New York",United States,Married,3.0,"Master of Business Administration, Harvard Business School; Bachelor of Arts/Science, Yale University",True
+80,Stefan Quandt,21.6,Germany,BMW,81,54.0,"Frankfurt, Germany",Germany,Married,1.0,"Associate in Arts/Science, Technical University of Karlsruhe",False
+82,Pierre Omidyar,21.4,United States,"eBay, PayPal",83,53.0,"Honolulu, Hawaii",United States,Married,3.0,"Bachelor of Arts/Science, Tufts University",True
+83,Stefan Persson,21.3,sweden,H&M,84,73.0,"Stockholm, Sweden",Sweden,Married,3.0,"Associate in Arts/Science, University of Stockholm",False
+84,Abigail Johnson,20.9,United States,money management,85,59.0,"Milton, Massachusetts",United States,Married,2.0,"Master of Business Administration, Harvard Business School; Bachelor of Arts/Science, Hobart and William Smith",False
+86,Andrew Forrest,20.4,Australia,mining,87,59.0,"Perth, Australia",Australia,Married,3.0,"Bachelor of Arts/Science, University of Western Australia",True
+87,Ray Dalio,20.3,United States,hedge funds,88,71.0,"Greenwich, Connecticut",United States,Married,4.0,"Master of Business Administration, Harvard Business School; Bachelor of Arts/Science, Long Island University",True
+94,Laurene Powell Jobs & family,19.0,United States,"Apple, Disney",95,57.0,"Palo Alto, California",United States,Widowed,3.0,"Master of Business Administration, Stanford Graduate School of Business; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",False
+95,Eric Schmidt,18.9,United States,Google,96,66.0,"Atherton, California",United States,Married,2.0,"Bachelor of Arts/Science, Princeton University; Doctorate, University of California, Berkeley; Master of Science, University of California, Berkeley",True
+96,Sun Piaoyang,18.9,China,pharmaceuticals,96,62.0,"Lianyungang, China",China,Married,1.0,"Bachelor of Arts/Science, China Pharmaceutical University; Doctorate, Nanjing University",True
+100,Wu Yajun,18.3,China,real estate,100,57.0,"Beijing, China",China,Divorced,1.0,Northwestern Polytechnical University,True
+103,Peter Woo,18.0,Hong Kong,real estate,104,74.0,"Hong Kong, Hong Kong",Hong Kong,Married,3.0,"Master of Business Administration, Columbia Business School",False
+105,Andrey Melnichenko,17.9,Russia,"coal, fertilizers",105,49.0,"Moscow, Russia",Russia,Married,2.0,"Master of Science, Plekhanov Russian University of Economics",True
+108,Donald Newhouse,17.6,United States,media,109,91.0,"New York, New York",United States,Widowed,3.0,"Drop Out, Syracuse University",False
+111,Pavel Durov,17.2,Russia,messaging app,112,36.0,"Dubai, United Arab Emirates",Russia,Single,2.0,"Master of Science, Saint Petersburg State University",True
+113,Jorge Paulo Lemann & family,16.9,brazil,beer,114,81.0,"Zurich, Switzerland",Brazil,Married,5.0,"Bachelor of Arts/Science, Harvard University",True
+115,Charlene de Carvalho-Heineken & family,16.7,Netherlands,Heineken,116,66.0,"London, United Kingdom",Netherlands,Married,5.0,"Bachelor of Arts/Science, Rijnlands Lyceum Wassenaar; Doctor of Jurisprudence, University of Leiden",False
+118,Steve Cohen,16.0,United States,hedge funds,119,64.0,"Greenwich, Connecticut",United States,Married,7.0,"Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",True
+119,Ken Griffin,16.0,United States,hedge funds,119,52.0,"Chicago, Illinois",United States,Divorced,3.0,"Bachelor of Arts/Science, Harvard University",True
+122,Uday Kotak,15.9,India,banking,121,62.0,"Mumbai, India",India,Married,2.0,"Bachelor of Arts/Science, Bombay University; Master of Business Administration, University of Bombay",True
+123,Carl Icahn,15.8,United States,investments,124,85.0,"Indian Creek, Florida",United States,Married,2.0,"Drop Out, New York University; Bachelor of Arts/Science, Princeton University",True
+124,Suleiman Kerimov & family,15.8,Russia,investments,124,55.0,"Moscow, Russia",Russia,Married,3.0,"Bachelor of Arts/Science, Dagestan State University",True
+125,"Thomas Frist, Jr. & family",15.7,United States,hospitals,126,82.0,"Nashville, Tennessee",United States,Married,3.0,"Bachelor of Arts/Science, Vanderbilt University; Medical Doctor, Washington University",True
+127,Mikhail Fridman,15.5,Russia,"oil, banking, telecom",128,57.0,"London, United Kingdom",Russia,Divorced,5.0,"Bachelor of Arts/Science, Moscow Institute of Steel and Alloys",True
+131,Donald Bren,15.3,United States,real estate,132,88.0,"Newport Beach, California",United States,Married,7.0,"Bachelor of Arts/Science, University of Washington",True
+133,Lakshmi Mittal,14.9,India,steel,133,70.0,"London, United Kingdom",India,Married,2.0,"Bachelor of Arts/Science, St Xavier's College Calcutta",False
+135,Eric Yuan & family,14.9,United States,video conferencing,133,51.0,"Santa Clara, California",United States,Married,3.0,"Master of Engineering Management, China University of Mining and Technology; Bachelor of Engineering, Shandong Institute of Business and Technology",True
+136,Wang Jianlin,14.8,China,real estate,137,66.0,"Beijing, China",China,Married,1.0,Liaoning University,True
+138,Robin Li,14.7,China,internet search,138,52.0,"Beijing, China",China,Married,4.0,"Bachelor of Arts/Science, Peking University; Master of Arts, University at Buffalo",True
+140,Eduardo Saverin,14.6,Brazil,Facebook,140,39.0,"Singapore, Singapore",Brazil,Married,1.0,"Bachelor of Arts/Science, Harvard University",True
+141,Roman Abramovich,14.5,Russia,"steel, investments",142,54.0,"Moscow, Russia",Russia,Married,7.0,"Bachelor of Arts/Science, Moscow State Law Academy",True
+142,David Tepper,14.5,United States,hedge funds,142,63.0,New Jersey,United States,Married,3.0,"Master of Business Administration, David A. Tepper School of Business; Bachelor of Arts/Science, University of Pittsburgh",True
+143,Gong Hongjia & family,14.4,Hong Kong,video surveillance,144,56.0,"Hong Kong, Hong Kong",Hong Kong,Married,2.0,"Bachelor of Arts/Science, Huazhong University of Science and Technology",True
+144,Mike Cannon-Brookes,14.2,Australia,software,145,41.0,"Sydney, Australia",Australia,Married,2.0,"Bachelor of Arts/Science, University of New South Wales",True
+145,"John Menard, Jr.",14.2,United States,home improvement stores,145,81.0,"Eau Claire, Wisconsin",United States,Married,6.0,"Bachelor of Arts/Science, University of Wisconsin, Eau Claire",True
+146,Seo Jung-jin,14.2,South Korea,biotech,145,63.0,"Seoul, South Korea",South Korea,Married,2.0,"Bachelor of Arts/Science, Konkuk University; Master of Science, Konkuk University",True
+148,Liang Wengen,14.1,China,construction equipment,148,64.0,"Changsha, China",China,Married,1.0,"Bachelor of Arts/Science, Central South University",True
