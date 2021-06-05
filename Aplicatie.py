@@ -5,24 +5,27 @@ import numpy as np
 
 #---ACTIONS---
 
-# VIEW TABLE
-def printD(a):
-    print(a)
 
-# DELETE ROW WITH NAN
-def deleteNan(a):
-    a.dropna(inplace=True)
-    printD(a)
+class actions:
 
-# DELETE DUPLICATES, KEEP FIRST
-def duplicatef(a):
-    a.drop_duplicates(subset=['Name'], keep='first')
-    printD(a)
+    # VIEW TABLE
+    def printD(a):
+        print(a)
 
-# DELETE DUPLICATES, KEEP SECOND
-def duplicates(a):
-    a.drop_duplicates(subset=['Name'], keep='last')
-    printD(a)
+    # DELETE ROW WITH NAN
+    def deleteNan(a):
+        a.dropna(inplace=True)
+        printD(a)
+
+    # DELETE DUPLICATES, KEEP FIRST
+    def duplicatef(a):
+        a.drop_duplicates(subset=['Name'], keep='first')
+        printD(a)
+
+    # DELETE DUPLICATES, KEEP SECOND
+    def duplicates(a):
+        a.drop_duplicates(subset=['Name'], keep='last')
+        printD(a)
 
 # EXPORT
 def exportcsv(a):
@@ -55,7 +58,7 @@ choice = input ("Please make a choice: ")
 while choice!=8:
     
     if choice == "1":
-        printD(datat) 
+        actions.printD(datat) 
     elif choice == "2":
         duplicatef(datat)
     elif choice == "3":
