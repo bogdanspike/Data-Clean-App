@@ -3,11 +3,9 @@ import pandas as pd
 import numpy as np
 
 
-#---ACTIONS---
-
-
 class actions:
 
+#---ACTIONS---
     # VIEW TABLE
     def printD(a):
         print(a)
@@ -15,20 +13,24 @@ class actions:
     # DELETE ROW WITH NAN
     def deleteNan(a):
         a.dropna(inplace=True)
-        printD(a)
+        print(a)
 
     # DELETE DUPLICATES, KEEP FIRST
     def duplicatef(a):
         a.drop_duplicates(subset=['Name'], keep='first')
-        printD(a)
+        print(a)
 
     # DELETE DUPLICATES, KEEP SECOND
     def duplicates(a):
         a.drop_duplicates(subset=['Name'], keep='last')
-        printD(a)
+        print(a)
 
-# EXPORT
-class exportd:
+    
+
+
+class export:
+
+    # EXPORT
     def exportcsv(a):
         datat.to_csv("New Data-CSV.csv")
 
@@ -67,11 +69,11 @@ while choice!=8:
     elif choice == "4":
         actions.deleteNan(datat)
     elif choice == "5":
-        exportd.exportcsv(datat)
+        export.exportcsv(datat)
     elif choice == "6":
-        exportd.exportjson(datat)
+        export.exportjson(datat)
     elif choice == "7":
-        exportd.exportexcel(datat)
+        export.exportexcel(datat)
     elif choice == "8":
         exit()
     else:
