@@ -28,14 +28,15 @@ class actions:
         printD(a)
 
 # EXPORT
-def exportcsv(a):
-    datat.to_csv("New Data-CSV.csv")
+class exportd:
+    def exportcsv(a):
+        datat.to_csv("New Data-CSV.csv")
 
-def exportjson(a):
-    datat.to_json("New Data-JSON.json")
+    def exportjson(a):
+        datat.to_json("New Data-JSON.json")
 
-def exportexcel(a):
-    datat.to_excel("New Data-Excel.xlsx")
+    def exportexcel(a):
+        datat.to_excel("New Data-Excel.xlsx")
 
 #---MENU---
 
@@ -60,17 +61,17 @@ while choice!=8:
     if choice == "1":
         actions.printD(datat) 
     elif choice == "2":
-        duplicatef(datat)
+        actions.duplicatef(datat)
     elif choice == "3":
-        duplicates(datat)
+        actions.duplicates(datat)
     elif choice == "4":
-        deleteNan(datat)
+        actions.deleteNan(datat)
     elif choice == "5":
-        exportcsv(datat)
+        exportd.exportcsv(datat)
     elif choice == "6":
-        exportjson(datat)
+        exportd.exportjson(datat)
     elif choice == "7":
-        exportexcel(datat)
+        exportd.exportexcel(datat)
     elif choice == "8":
         exit()
     else:
