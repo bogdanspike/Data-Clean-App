@@ -32,6 +32,15 @@ class Actions:
         else:
             print("Nu ai voie sa stergi coloanele respective('Name','Rank')")
         print(a.columns)
+    
+     # DELETE SPECIFIED ROW
+    def drop_row(a,row_index: int):
+        if row_index != 0:
+            a.drop(row_index, inplace=True)
+            print(a)
+        else:
+            print("Nu ai voie sa stergi randul respectiv")
+        
 
     # CALCULATE AVERAGE ON COLUMN
     def average(a,col_index: int):
@@ -69,20 +78,21 @@ def menu():
         print("Choose 2 - delete  duplicate,keep the first")
         print("Choose 3 - delete duplicate,keep the second")
         print("Choose 4 - delete  NaN")
-        print("Choose 5 - export csv")
-        print("Choose 6 - export json")
-        print("Choose 7 - export excel")
-        print("Choose 8 - delete column")
-        print("Choose 9 - calculate average on column")
-        print("Choose 10 - calculate median on column")
-        print("Choose 11 - EXIT")
+        print("Choose 5 - delete column")
+        print("Choose 6 - delete row")
+        print("Choose 7 - calculate average on column")
+        print("Choose 8 - calculate median on column")
+        print("Choose 9 - export csv")
+        print("Choose 10 - export json")
+        print("Choose 11 - export excel")
+        print("Choose 12 - EXIT")
 menu()
 
 
 #---MAIN---  
 datat=pd.read_csv("DataC.csv")
 choice = input ("Please make a choice: ")
-while choice!=11:
+while choice!=12:
     
     if choice == "1":
         Actions.printD(datat) 
@@ -93,21 +103,24 @@ while choice!=11:
     elif choice == "4":
         Actions.delete_nan(datat)
     elif choice == "5":
-        Export.exportcsv(datat)
-    elif choice == "6":
-        Export.exportjson(datat)
-    elif choice == "7":
-        Export.exportexcel(datat)
-    elif choice == "8":
         col_index=int(input("Alege indexul coloanei:"))
         Actions.drop_col(datat,col_index)
-    elif choice == "9":
+    elif choice == "6":
+        row_index=int(input("Alege indexul randului:"))
+        Actions.drop_row(datat,row_index)
+    elif choice == "7":
         col_index=int(input("Alege indexul coloanei:"))
         Actions.average(datat,col_index)
-    elif choice == "10":
+    elif choice == "8":
         col_index=int(input("Alege indexul coloanei:"))
         Actions.median(datat,col_index)    
+    elif choice == "9":
+        Export.exportcsv(datat)
+    elif choice == "10":
+        Export.exportjson(datat)
     elif choice == "11":
+        Export.exportexcel(datat)   
+    elif choice == "12":
         exit()        
     else:
         print("I don't understand the choice")
